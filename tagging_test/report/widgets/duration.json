@@ -1,0 +1,201 @@
+[ {
+  "uid" : "c17d11bbaf3efe4e",
+  "name" : "修改YAML文件中已经使用过的数据",
+  "time" : {
+    "start" : 1612750790727,
+    "stop" : 1612750790732,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6cbf7c3c8fbfad3",
+  "name" : "快捷键测试",
+  "time" : {
+    "start" : 1612750774955,
+    "stop" : 1612750777826,
+    "duration" : 2871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c7614c785835956",
+  "name" : "标注员登录，进入标注页",
+  "time" : {
+    "start" : 1612750748838,
+    "stop" : 1612750750013,
+    "duration" : 1175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7490415efb0d5fc",
+  "name" : "画一个实时的多边形",
+  "time" : {
+    "start" : 1612750759094,
+    "stop" : 1612750762682,
+    "duration" : 3588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "181410f7750b3603",
+  "name" : "测试视频标注功能",
+  "time" : {
+    "start" : 1612750782749,
+    "stop" : 1612750790725,
+    "duration" : 7976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdff12152a5776be",
+  "name" : "画一个实时的平行四边形",
+  "time" : {
+    "start" : 1612750765777,
+    "stop" : 1612750768850,
+    "duration" : 3073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68b72a9abc4da349",
+  "name" : "画一个预定义的平行四边形",
+  "time" : {
+    "start" : 1612750762684,
+    "stop" : 1612750765775,
+    "duration" : 3091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "941211bb21a609db",
+  "name" : "画一个预定义矩形",
+  "time" : {
+    "start" : 1612750750016,
+    "stop" : 1612750753701,
+    "duration" : 3685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9f0303b16f5683",
+  "name" : "退出标注员账号登录，项目管理员登录",
+  "time" : {
+    "start" : 1612750777828,
+    "stop" : 1612750778856,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1600b1c46d6202b",
+  "name" : "画一个预定义多边形",
+  "time" : {
+    "start" : 1612750756491,
+    "stop" : 1612750759091,
+    "duration" : 2600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7d0834cbdf48db9",
+  "name" : "画一个实时的有序平行四边形",
+  "time" : {
+    "start" : 1612750771893,
+    "stop" : 1612750774952,
+    "duration" : 3059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21033be80470aa58",
+  "name" : "用户管理测试",
+  "time" : {
+    "start" : 1612750735167,
+    "stop" : 1612750738985,
+    "duration" : 3818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa7e4cdd52274750",
+  "name" : "系统管理员登录",
+  "time" : {
+    "start" : 1612750728236,
+    "stop" : 1612750729066,
+    "duration" : 830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4408e78eed21531d",
+  "name" : "新增视频任务",
+  "time" : {
+    "start" : 1612750778901,
+    "stop" : 1612750782747,
+    "duration" : 3846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0d7f4abfd5160c1",
+  "name" : "画一个实时的矩形",
+  "time" : {
+    "start" : 1612750753704,
+    "stop" : 1612750756488,
+    "duration" : 2784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d66a9195a1b1f56",
+  "name" : "画一个预定义的有序平行四边形",
+  "time" : {
+    "start" : 1612750768853,
+    "stop" : 1612750771889,
+    "duration" : 3036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46b1563162d66515",
+  "name" : "企业管理测试",
+  "time" : {
+    "start" : 1612750729068,
+    "stop" : 1612750735164,
+    "duration" : 6096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b53038e90a865dd3",
+  "name" : "数据集管理测试",
+  "time" : {
+    "start" : 1612750738990,
+    "stop" : 1612750742550,
+    "duration" : 3560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd7aa5fb7ae0e757",
+  "name" : "修改YAML文件中已经使用过的数据",
+  "time" : {
+    "start" : 1612750778858,
+    "stop" : 1612750778898,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d00b0eeafbe7483",
+  "name" : "新建项目并创建图片任务",
+  "time" : {
+    "start" : 1612750742552,
+    "stop" : 1612750748835,
+    "duration" : 6283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

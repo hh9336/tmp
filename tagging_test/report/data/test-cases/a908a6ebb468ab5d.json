@@ -1,0 +1,89 @@
+{
+  "uid" : "a908a6ebb468ab5d",
+  "name" : "用户管理测试",
+  "fullName" : "testcase.test_test.TestMark#test_user_manage",
+  "historyId" : "a1f82d08e07eb77b4d078e1f47c82b0a",
+  "time" : {
+    "start" : 1612750471096,
+    "stop" : 1612750474062,
+    "duration" : 2966
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "self = <test_test.TestMark object at 0x0000019D9CFAFEF0>, start_class = <mark_po.page.ui.UI object at 0x0000019D9CF8F630>\n\n    @allure.title('用户管理测试')\n    def test_user_manage(self, start_class):\n        com_u = start_class.goto_index().goto_user_manage()\n>       com_u.click_user_manage()\n\ntestcase\\test_test.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\user_manage.py:14: in click_user_manage\n    self.steps(\"page/user_manage.yaml\", \"into_user_manage\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <mark_po.page.user_manage.UserManage object at 0x0000019D9CFAFDD8>, path = 'page/user_manage.yaml', name = 'into_user_manage'\n\n    def steps(self, path, name):\n        with open(path, encoding=\"utf-8\") as f:\n            steps = yaml.safe_load(f)[name]\n        raw = json.dumps(steps)\n        for key, value in self._params.items():\n            raw = raw.replace('${' + key + '}', value)\n        steps = json.loads(raw)\n        for step in steps:\n            if \"action\" in step.keys():\n                action = step[\"action\"]\n                if \"click\" == action:\n>                   self.find(step[\"by\"], step[\"locator\"]).click()\nE                   AttributeError: 'NoneType' object has no attribute 'click'\n\nconfig\\base_page.py:65: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612750450211,
+      "stop" : 1612750464792,
+      "duration" : 14581
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612750478188,
+      "stop" : 1612750478188,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "38024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a908a6ebb468ab5d.json",
+  "parameterValues" : [ ]
+}

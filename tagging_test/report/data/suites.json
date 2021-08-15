@@ -1,0 +1,285 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_test",
+      "children" : [ {
+        "name" : "TestMark",
+        "children" : [ {
+          "name" : "系统管理员登录",
+          "uid" : "fa7e4cdd52274750",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750728236,
+            "stop" : 1612750729066,
+            "duration" : 830
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "企业管理测试",
+          "uid" : "46b1563162d66515",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750729068,
+            "stop" : 1612750735164,
+            "duration" : 6096
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "用户管理测试",
+          "uid" : "21033be80470aa58",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750735167,
+            "stop" : 1612750738985,
+            "duration" : 3818
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "数据集管理测试",
+          "uid" : "b53038e90a865dd3",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750738990,
+            "stop" : 1612750742550,
+            "duration" : 3560
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新建项目并创建图片任务",
+          "uid" : "4d00b0eeafbe7483",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750742552,
+            "stop" : 1612750748835,
+            "duration" : 6283
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "标注员登录，进入标注页",
+          "uid" : "7c7614c785835956",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750748838,
+            "stop" : 1612750750013,
+            "duration" : 1175
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "画一个预定义矩形",
+          "uid" : "941211bb21a609db",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750750016,
+            "stop" : 1612750753701,
+            "duration" : 3685
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'start_position': [250, -400], 'end_position': [200, 120]}" ]
+        }, {
+          "name" : "画一个实时的矩形",
+          "uid" : "b0d7f4abfd5160c1",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750753704,
+            "stop" : 1612750756488,
+            "duration" : 2784
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'start_position': [450, -700], 'end_position': [200, 120]}" ]
+        }, {
+          "name" : "画一个预定义多边形",
+          "uid" : "f1600b1c46d6202b",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750756491,
+            "stop" : 1612750759091,
+            "duration" : 2600
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'position1': [50, -430], 'position2': [100, -50], 'position3': [100, 50], 'position4': [-180, 200], 'position5': [-20, -200]}" ]
+        }, {
+          "name" : "画一个实时的多边形",
+          "uid" : "7490415efb0d5fc",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750759094,
+            "stop" : 1612750762682,
+            "duration" : 3588
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'position1': [110, -230], 'position2': [100, -50], 'position3': [100, 50], 'position4': [-180, 200], 'position5': [-20, -200]}" ]
+        }, {
+          "name" : "画一个预定义的平行四边形",
+          "uid" : "68b72a9abc4da349",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750762684,
+            "stop" : 1612750765775,
+            "duration" : 3091
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'position1': [550, -400], 'position2': [100, -50], 'position3': [100, 50]}" ]
+        }, {
+          "name" : "画一个实时的平行四边形",
+          "uid" : "fdff12152a5776be",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750765777,
+            "stop" : 1612750768850,
+            "duration" : 3073
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'position1': [750, -300], 'position2': [100, -50], 'position3': [100, 50]}" ]
+        }, {
+          "name" : "画一个预定义的有序平行四边形",
+          "uid" : "d66a9195a1b1f56",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750768853,
+            "stop" : 1612750771889,
+            "duration" : 3036
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'position1': [318.6, -126.48], 'position2': [100, -50], 'position3': [166.66, 0]}" ]
+        }, {
+          "name" : "画一个实时的有序平行四边形",
+          "uid" : "b7d0834cbdf48db9",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750771893,
+            "stop" : 1612750774952,
+            "duration" : 3059
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'position1': [818.6, -96.48], 'position2': [100, -50], 'position3': [166.66, 0]}" ]
+        }, {
+          "name" : "快捷键测试",
+          "uid" : "e6cbf7c3c8fbfad3",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750774955,
+            "stop" : 1612750777826,
+            "duration" : 2871
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "退出标注员账号登录，项目管理员登录",
+          "uid" : "d9f0303b16f5683",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750777828,
+            "stop" : 1612750778856,
+            "duration" : 1028
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "修改YAML文件中已经使用过的数据",
+          "uid" : "fd7aa5fb7ae0e757",
+          "parentUid" : "7efc6e097d63b366d3c79f2f7404d610",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750778858,
+            "stop" : 1612750778898,
+            "duration" : 40
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7efc6e097d63b366d3c79f2f7404d610"
+      } ],
+      "uid" : "75dc5cd4862c80bfaac032fa2a47b50e"
+    }, {
+      "name" : "test_video",
+      "children" : [ {
+        "name" : "TestVideoMark",
+        "children" : [ {
+          "name" : "新增视频任务",
+          "uid" : "4408e78eed21531d",
+          "parentUid" : "f9b87ba045f3d6cce53ba4418b93c3b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750778901,
+            "stop" : 1612750782747,
+            "duration" : 3846
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试视频标注功能",
+          "uid" : "181410f7750b3603",
+          "parentUid" : "f9b87ba045f3d6cce53ba4418b93c3b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750782749,
+            "stop" : 1612750790725,
+            "duration" : 7976
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "修改YAML文件中已经使用过的数据",
+          "uid" : "c17d11bbaf3efe4e",
+          "parentUid" : "f9b87ba045f3d6cce53ba4418b93c3b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1612750790727,
+            "stop" : 1612750790732,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f9b87ba045f3d6cce53ba4418b93c3b8"
+      } ],
+      "uid" : "972ed9ec7174934658fb50e8ea0f9a57"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

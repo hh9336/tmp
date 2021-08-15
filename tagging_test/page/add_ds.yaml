@@ -1,0 +1,61 @@
+select_date_type_video:
+  - by: xpath
+    locator: '//*[@class="flex dir-column align-center just-center"]//*[@class="ant-select ant-select-enabled"]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="ant-select-dropdown-menu-item"]'
+    action: click
+
+input_dateset_name:
+  - by: xpath
+    locator: "//*[@class='container open']/div/div[1]/input"
+    action: send
+    value: ${input_name}
+
+select_enterprise_dataset:
+  - by: xpath
+    locator: "//*[@class='container open']/div/div[2]//label[1]//*[@class='ant-radio-input']"
+    action: click
+
+input_text:
+  - by: xpath
+    locator: "//*[@class='container open']/div/div[3]/input"
+    action: send
+    value: ${input_text}
+
+select_local_upload:
+  - by: xpath
+    locator: "//*[@value='local']"
+    action: click
+
+select_service_upload:
+  - by: xpath
+    locator: "//*[@value='serve']"
+    action: click
+
+drag_file:
+  - by: xpath
+    locator: "//*[@type='file']"
+    action: send_keys
+    img_path: ${img_path}
+
+input_path_address:
+  - by: xpath
+    locator: "//*[@class='container open']/div/div[4]/div[3]/input"
+    action: send
+    value: ${input_path}
+
+click_reset:
+  - by: xpath
+    locator: "//*[@class='reset ant-btn']"
+    action: click
+
+click_submit:
+  - by: xpath
+    locator: "//*[@class='ant-btn ant-btn-primary']"
+    action: click
+
+click_return:
+  - by: xpath
+    locator: "//*[@class='ant-page-header-back-button']"
+    action: click

@@ -1,0 +1,175 @@
+{
+  "uid" : "e7661fd5c29edc16",
+  "name" : "数据集管理测试",
+  "fullName" : "testcase.test_test.TestMark#test_dateset_manage",
+  "historyId" : "5e7db4d4fe03af81cedf428b723987f9",
+  "time" : {
+    "start" : 1612342072254,
+    "stop" : 1612342075619,
+    "duration" : 3365
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612342048663,
+      "stop" : 1612342062384,
+      "duration" : 13721
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "项目管理员:tag2_207043登录",
+      "time" : {
+        "start" : 1612342072328,
+        "stop" : 1612342072941,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入数据集管理页,新增图片集，服务端上传",
+      "time" : {
+        "start" : 1612342072941,
+        "stop" : 1612342073790,
+        "duration" : 849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97761b7d34188b3d",
+        "name" : "服务端上传图片测试成功",
+        "source" : "97761b7d34188b3d.png",
+        "type" : "image/png",
+        "size" : 39083
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "新增图片集，本地上传",
+      "time" : {
+        "start" : 1612342073790,
+        "stop" : 1612342074562,
+        "duration" : 772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe40c2b42be5fdb6",
+        "name" : "图片本地上传测试成功",
+        "source" : "fe40c2b42be5fdb6.png",
+        "type" : "image/png",
+        "size" : 42095
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "新增视频集，服务端上传",
+      "time" : {
+        "start" : 1612342074562,
+        "stop" : 1612342075619,
+        "duration" : 1057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68a39adc988e238e",
+        "name" : "视频服务端测试成功",
+        "source" : "68a39adc988e238e.png",
+        "type" : "image/png",
+        "size" : 62624
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612342121791,
+      "stop" : 1612342121791,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "17972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7661fd5c29edc16.json",
+  "parameterValues" : [ ]
+}

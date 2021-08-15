@@ -1,0 +1,173 @@
+init_time:
+  test_time: 1612750778858
+user:
+  username: dev333
+  password: pwd333
+  assert_v1: 企业管理
+add_enterprise:
+  enterprise_name: 媒智科技test1612750778858
+  username: meizhi1612750778858
+  password: pwd333
+  confirm_pwd: pwd333
+re_enterprise_name:
+  name: re_媒智科技test1612750778858
+add_manage:
+  username: tag2_1612750778858
+  password: pwd333
+  re_password: pwd333
+add_user:
+  username: tag7_1612750778858
+  password: pwd333
+  re_password: pwd333
+dataset_manage_pic01:
+  input_name: 1612750778858pic_01
+  input_text: 图片服务端测试
+  input_path: /DATA/image_test4
+dataset_manage_video:
+  input_name: dataset_name1612750778858
+  input_text: 视频服务端上传
+  input_path: /DATA/docker-data/volume/new_label/test_video
+dataset_manage_pic02:
+  input_name: 1612750778858pic_02
+  input_text: 图片本地上传测试
+  img_path:
+  - D:/PycharmProjects/Selenium/mark_po/file/1.jpg
+  - D:/PycharmProjects/Selenium/mark_po/file/2.jpg
+  - D:/PycharmProjects/Selenium/mark_po/file/3.jpg
+project_manage:
+  project_name: testproject1612750778858
+  project_detail: 测试新增项目备注功能
+  re_project_name: re_testproject1612750778858
+task_manage:
+  task_name: testpic1612750778858
+  task_name_video: taskvideo1612750778858
+  template_name: 1612750778858测试模板01
+  label_name: 忽略
+  label_color: rgb(228, 103, 103)
+task_add_label:
+  label_name: 文本
+  label_color: rgb(118, 238, 180)
+rectangle_position_predefined:
+- start_position:
+  - 250
+  - -400
+  end_position:
+  - 200
+  - 120
+polygon_position_predefined:
+- position1:
+  - 50
+  - -430
+  position2:
+  - 100
+  - -50
+  position3:
+  - 100
+  - 50
+  position4:
+  - -180
+  - 200
+  position5:
+  - -20
+  - -200
+parallelogram_position_predefined:
+- position1:
+  - 550
+  - -400
+  position2:
+  - 100
+  - -50
+  position3:
+  - 100
+  - 50
+ordered_parallelogram_position_predefined:
+- position1:
+  - 318.6
+  - -126.48
+  position2:
+  - 100
+  - -50
+  position3:
+  - 166.66
+  - 0
+rectangle_position_customize:
+- start_position:
+  - 450
+  - -700
+  end_position:
+  - 200
+  - 120
+polygon_position_customize:
+- position1:
+  - 110
+  - -230
+  position2:
+  - 100
+  - -50
+  position3:
+  - 100
+  - 50
+  position4:
+  - -180
+  - 200
+  position5:
+  - -20
+  - -200
+parallelogram_position_customize:
+- position1:
+  - 750
+  - -300
+  position2:
+  - 100
+  - -50
+  position3:
+  - 100
+  - 50
+ordered_parallelogram_position_customize:
+- position1:
+  - 818.6
+  - -96.48
+  position2:
+  - 100
+  - -50
+  position3:
+  - 166.66
+  - 0
+add_customize_val:
+  add_value: '123'
+update_object_id_val:
+  updata_value: 34
+update_ds_explain:
+  update_value: 1313
+del_mark_position:
+  start_position:
+  - 260
+  - -359
+update_mark_position:
+  start_position:
+  - 470
+  - -600
+  end_position:
+  - 300
+  - 120
+update_value:
+  update_value: update test description
+show_wait_condition:
+  update_whether_manage_condi: 用户名
+  input_project_name_condi: '项目名称: '
+  select_dateset_pic_condi: 1（最高）
+  click_add_template_condi: ' 新增模板 '
+  click_add_label_condition_r: 新 增
+  click_add_label_condition: 预定义
+  click_add_task: 创建任务
+  set_mark_rectangle_condi: 矩 形
+  click_add_btn_condi: 新增：Q
+  set_mark_polygon_condi: 多边形
+  set_mark_parallelogram_condi: 平行四边形
+  set_mark_ordered_parallelogram_condi:
+  click_hide_btn_condi: 隐藏：S
+  click_previous_img_btn_condi: 恢复标注：E
+  click_show_btn_condi: 显示：S
+  click_not_mark_btn_condi: 第2张，共2张
+  click_del_btn_condi: 标注信息
+  click_set_show_customize_mark_condi: 7/500

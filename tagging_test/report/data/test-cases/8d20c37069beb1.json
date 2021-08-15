@@ -1,0 +1,178 @@
+{
+  "uid" : "8d20c37069beb1",
+  "name" : "快捷键测试",
+  "fullName" : "testcase.test_test.TestMark#test_shortcut_key",
+  "historyId" : "c3f3e341feaecd39c43f8fb9a05c9b76",
+  "time" : {
+    "start" : 1612341822409,
+    "stop" : 1612341834053,
+    "duration" : 11644
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <test_test.TestMark object at 0x000001AB7D97DC50>, start_class = <mark_po.page.ui.UI object at 0x000001AB7D90B358>\n\n    @allure.title('快捷键测试')\n    def test_shortcut_key(self, start_class):\n        com_m = start_class.goto_index().goto_start_mark().goto_mark()\n        show_wait_condition = self.load_data('show_wait_condition')\n        del_mark_position = self.load_data(\"del_mark_position\")\n        update_mark_position = self.load_data(\"update_mark_position\")\n        with allure.step('隐藏图片1中所有的框'):\n            com_m.click_hide_btn()\n        with allure.step('点击下一张图片'):\n            com_m.click_next_img_btn()\n        with allure.step('设置第二张图片为无法标注'):\n            com_m.click_not_mark_btn()\n        with allure.step('点击前一张图片,显示图片中的所有的框'):\n            com_m.click_previous_img_btn()\n            com_m.click_hide_btn()\n        with allure.step('选中一个框，点击删除按钮'):\n>           com_m.select_del_mark(del_mark_position, show_wait_condition['click_hide_btn_condi'])\n\ntestcase\\test_test.py:370: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\mark_page.py:259: in select_del_mark\n    self.wait_for_condition(test_wait)\nconfig\\base_page.py:39: in wait_for_condition\n    WebDriverWait(self.driver, 10).until(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a109f8f8643ac71be69fca0c225ec787\")>, method = <function MarkPage.select_del_mark.<locals>.test_wait at 0x000001AB7D8CB488>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612341764138,
+      "stop" : 1612341777641,
+      "duration" : 13503
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <test_test.TestMark object at 0x000001AB7D97DC50>, start_class = <mark_po.page.ui.UI object at 0x000001AB7D90B358>\n\n    @allure.title('快捷键测试')\n    def test_shortcut_key(self, start_class):\n        com_m = start_class.goto_index().goto_start_mark().goto_mark()\n        show_wait_condition = self.load_data('show_wait_condition')\n        del_mark_position = self.load_data(\"del_mark_position\")\n        update_mark_position = self.load_data(\"update_mark_position\")\n        with allure.step('隐藏图片1中所有的框'):\n            com_m.click_hide_btn()\n        with allure.step('点击下一张图片'):\n            com_m.click_next_img_btn()\n        with allure.step('设置第二张图片为无法标注'):\n            com_m.click_not_mark_btn()\n        with allure.step('点击前一张图片,显示图片中的所有的框'):\n            com_m.click_previous_img_btn()\n            com_m.click_hide_btn()\n        with allure.step('选中一个框，点击删除按钮'):\n>           com_m.select_del_mark(del_mark_position, show_wait_condition['click_hide_btn_condi'])\n\ntestcase\\test_test.py:370: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\mark_page.py:259: in select_del_mark\n    self.wait_for_condition(test_wait)\nconfig\\base_page.py:39: in wait_for_condition\n    WebDriverWait(self.driver, 10).until(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a109f8f8643ac71be69fca0c225ec787\")>, method = <function MarkPage.select_del_mark.<locals>.test_wait at 0x000001AB7D8CB488>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "隐藏图片1中所有的框",
+      "time" : {
+        "start" : 1612341822448,
+        "stop" : 1612341822543,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击下一张图片",
+      "time" : {
+        "start" : 1612341822543,
+        "stop" : 1612341822610,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "设置第二张图片为无法标注",
+      "time" : {
+        "start" : 1612341822610,
+        "stop" : 1612341823207,
+        "duration" : 597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击前一张图片,显示图片中的所有的框",
+      "time" : {
+        "start" : 1612341823207,
+        "stop" : 1612341823375,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选中一个框，点击删除按钮",
+      "time" : {
+        "start" : 1612341823375,
+        "stop" : 1612341834048,
+        "duration" : 10673
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\PycharmProjects\\Selenium\\mark_po\\testcase\\test_test.py\", line 370, in test_shortcut_key\n    com_m.select_del_mark(del_mark_position, show_wait_condition['click_hide_btn_condi'])\n  File \"..\\mark_po\\page\\mark_page.py\", line 259, in select_del_mark\n    self.wait_for_condition(test_wait)\n  File \"..\\mark_po\\config\\base_page.py\", line 39, in wait_for_condition\n    WebDriverWait(self.driver, 10).until(condition)\n  File \"d:\\pycharmprojects\\selenium\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612341846245,
+      "stop" : 1612341846245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "14040-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d20c37069beb1.json",
+  "parameterValues" : [ ]
+}

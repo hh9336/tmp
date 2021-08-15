@@ -1,0 +1,17 @@
+login:
+  - by: xpath
+    locator: "//*[@class='username']//*[@class='ant-input']"
+    action: send
+    value: ${username}
+  - by: xpath
+    locator: "//*[@class='password']//*[@class='ant-input']"
+    action: send
+    value: ${password}
+  - by: xpath
+    locator: "//*[@type='button']"
+    action: click
+
+assert_right:
+  - by: xpath
+    locator: '//*[text()="${assert_v1}"]'
+    action: len > 0

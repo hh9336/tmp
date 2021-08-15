@@ -1,0 +1,183 @@
+{
+  "uid" : "fdff12152a5776be",
+  "name" : "画一个实时的平行四边形",
+  "fullName" : "testcase.test_test.TestMark#test_mark_parallelogram_customize",
+  "historyId" : "5bea705ffdc4f8fdb27faf16e79f30f6",
+  "time" : {
+    "start" : 1612750765777,
+    "stop" : 1612750768850,
+    "duration" : 3073
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612750715824,
+      "stop" : 1612750728234,
+      "duration" : 12410
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "画一个实时的平行四边形",
+      "time" : {
+        "start" : 1612750765804,
+        "stop" : 1612750768850,
+        "duration" : 3046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ed10f17140594e6",
+        "name" : "实时的平行四边形",
+        "source" : "5ed10f17140594e6.png",
+        "type" : "image/png",
+        "size" : 1104966
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612750790733,
+      "stop" : 1612750790733,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "9104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "position",
+    "value" : "{'position1': [750, -300], 'position2': [100, -50], 'position3': [100, 50]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63eb2276e001bef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612750587035,
+        "stop" : 1612750590128,
+        "duration" : 3093
+      }
+    }, {
+      "uid" : "e4fbf4cef3e76ec8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612750328190,
+        "stop" : 1612750328190,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9a07060f5449c019",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612750276931,
+        "stop" : 1612750276931,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b36df38a19c2d4ab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612750023603,
+        "stop" : 1612750023603,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d3f06f769af1eac3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612749793167,
+        "stop" : 1612749793167,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "47d125dda67731d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612342097950,
+        "stop" : 1612342100898,
+        "duration" : 2948
+      }
+    }, {
+      "uid" : "e555828d0d06c2ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612341813497,
+        "stop" : 1612341816447,
+        "duration" : 2950
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdff12152a5776be.json",
+  "parameterValues" : [ "{'position1': [750, -300], 'position2': [100, -50], 'position3': [100, 50]}" ]
+}

@@ -1,0 +1,192 @@
+click_add_template:
+  - by: xpath
+    locator: '//*[@class="create-tem"]'
+    action: click
+
+click_template_name:
+  - by: xpath
+    locator: '//*[@class="flex info-label"]//*[@class="ant-input"]'
+    action: click
+
+control_a_template_name:
+  - by: xpath
+    locator: '//*[@class="flex info-label"]//*[@class="ant-input"]'
+    action: control_a
+
+input_template_name:
+  - by: xpath
+    locator: '//*[@class="flex info-label"]//*[@class="ant-input"]'
+    action: send
+    value: ${template_name}
+
+select_mark_shape_rectangle:
+  - by: xpath
+    locator: '//*[@class="ant-checkbox-group"]/label[1]//input'
+    action: click
+
+select_mark_shape_polygon:
+  - by: xpath
+    locator: '//*[@class="ant-checkbox-group"]/label[2]//input'
+    action: click
+
+select_mark_shape_parallelogram:
+  - by: xpath
+    locator: '//*[@class="ant-checkbox-group"]/label[3]//input'
+    action: click
+
+select_mark_shape_ordered_parallelogram:
+  - by: xpath
+    locator: '//*[@class="ant-checkbox-group"]/label[4]//input'
+    action: click
+
+select_outside_point_unlimited:
+  - by: xpath
+    locator: '//*[@class="info"]/div[5]/label[1]//input'
+    action: click
+
+select_outside_point_cannot:
+  - by: xpath
+    locator: '//*[@class="info"]/div[5]/label[2]//input'
+    action: click
+
+select_outside_point_default:
+  - by: xpath
+    locator: '//*[@class="info"]/div[5]/label[3]//input'
+    action: click
+
+click_add_outside_point:
+  - by: xpath
+    locator: '//*[@class="info"]/div[5]/label[3]//*[@class="ant-input-number-handler-wrap"]/span[1]'
+    action: click
+
+click_reduce_outside_point:
+  - by: xpath
+    locator: '//*[@class="info"]/div[5]/label[3]//*[@class="ant-input-number-handler-wrap"]/span[2]'
+    action: click
+
+double_click_mark_number:
+  - by: xpath
+    locator: '//*[@class="info"]/div[6]//*[@class="ant-input-number-input"]'
+    action: double_click
+
+input_mark_number:
+  - by: xpath
+    locator: '//*[@class="info"]/div[6]//*[@class="ant-input-number-input"]'
+    action: send
+    value: ${mark_number}
+
+click_add_label:
+  - by: xpath
+    locator: '//*[@class="flex align-center just-between info-label"]/button'
+    action: click
+
+click_label_type:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr/td[2]/div'
+    action: click
+
+select_label_type_customize:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[2]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//*[@class="ant-select-dropdown-menu-item"]'
+    action: click
+
+input_label_name:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr/td[3]/input'
+    action: send
+    value: ${label_name}
+
+input_label_value:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr/td[4]/input'
+    action: send
+    value: 'testvalue'
+
+click_label_color:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr/td[5]//*[@class="el-color-picker__trigger"]'
+    action: click
+
+input_label_color:
+  - by: xpath
+    locator: '//*[@class="el-input__inner"]'
+    action: send
+    value: ${label_color}
+
+input_label_color_re:
+  - by: xpath
+    locator: '//*[@class="el-input__inner"]'
+    action: control_a
+  - by: xpath
+    locator: '//*[@class="el-input__inner"]'
+    action: send
+    value: ${label_color}
+
+click_cancel_color:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[last()]//span[2]'
+    action: click
+
+
+click_submit_color:
+  - by: xpath
+    locator: '//*[@class="el-button el-color-dropdown__btn el-button--default el-button--mini is-plain"]'
+#    locator: '//body/div[last()]/div[2]/button[2]'
+    action: click
+
+
+click_save_label:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[6]//span[1]'
+    action: click
+
+click_cancel_label:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[6]//span[2]'
+    action: click
+
+click_cancel_template:
+  - by: xpath
+    locator: '//*[@class="ant-modal-footer"]//button[1]'
+    action: click
+
+click_submit_template:
+  - by: xpath
+    locator: '//*[@class="ant-modal-footer"]//button[2]'
+    action: click
+
+copy_template:
+  - by: xpath
+    locator: '//*[@class="template-list"]/div[2]//i'
+    action: click
+
+upload_label:
+  - by: xpath
+    locator: '//*[@class="ant-upload"]/input'
+    action: send
+    value: ${label_json_path}
+
+input_label_name_video:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr/td[2]/input'
+    action: send
+    value: ${label_name}
+
+input_label_value_video:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr/td[3]/input'
+    action: send
+    value: 'VideoLabel'
+
+
+click_save_label_video:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[4]//span[1]'
+    action: click
+
+
+
+

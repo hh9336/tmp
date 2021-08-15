@@ -1,0 +1,17 @@
+init_time:
+  test_time: 1612750790727
+task_manage:
+  task_name: testvideo1612750790727
+  template_name: 1612750790727测试视频模板01
+  label_json_path: D:/PycharmProjects/Selenium/mark_po/file/test.json
+  label_name: 测试标签新增
+show_wait_condition:
+  click_play_condi: 播放：空格
+  click_play_condi1: 开始：Q
+  click_not_mark_video_condi: ' 第2/2个视频 '
+  click_previous_video_condi: 恢复标注：E
+  update_video_label_condi: 测试标签新增
+  click_del_label: 会晤
+  select_mark_style_condi: 视频标注任务
+  click_add_template_condi: ' 新增模板 '
+  click_del_label_submit_condi: 删除后无法恢复，是否确定？

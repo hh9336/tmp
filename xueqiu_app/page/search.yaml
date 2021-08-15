@@ -1,0 +1,16 @@
+search:
+  - by: id
+    locator: "com.xueqiu.android:id/search_input_text"
+    action: send
+    value: "${search_value}"
+  - by: xpath
+    locator: '//*[@resource-id="com.xueqiu.android:id/listview"]/..//*[@text="${search_value}"]'
+    action: click
+  - by: xpath
+    locator: "//*[@text='${search_value}']/../../..//*[@text='加自选']"
+    action: click
+
+is_choose:
+  - by: xpath
+    locator: '//*[@text="${search_value}"]/../../..//*[@text="已添加"]'
+    action: len>0

@@ -1,0 +1,4 @@
+click_mark:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary ant-btn-sm"]'
+    action: click

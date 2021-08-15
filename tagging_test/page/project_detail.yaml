@@ -1,0 +1,9 @@
+click_add_task:
+  - by: xpath
+    locator: '//*[@class="btn-create ant-btn ant-btn-primary"]'
+    action: click
+
+click_query:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[2]/td[last()]'
+    action: click

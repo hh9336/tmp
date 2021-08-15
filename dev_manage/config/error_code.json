@@ -1,0 +1,16 @@
+{
+    "1001": "参数⾮法",
+    "1002": "app_id无效或缺少",
+    "1003": "缺少 app_id 参数",
+    "1004": "timestamp缺少",
+    "1005": "nonce无效或缺少",
+    "1006": "sign无效或缺少",
+    "1007": "timestamp无效",
+    "1008": "Http Headers 缺少 Authorization 参数",
+    "1009": "Http Headers 缺少 Content-Type 参数或该参数值不是 application/json",
+    "2001": "video_url缺少",
+    "2002": "post_url缺少",
+    "2006": "未查询到任务",
+    "2007": "该任务已被撤销",
+    "2008": "下载失败拦截验证"
+}

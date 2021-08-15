@@ -1,0 +1,154 @@
+{
+  "uid" : "e5be0629512259ee",
+  "name" : "企业管理测试",
+  "fullName" : "testcase.test_test.TestMark#test_add_enterprise",
+  "historyId" : "7601a6d142171b5d664612a66f4dd4d3",
+  "time" : {
+    "start" : 1612750551329,
+    "stop" : 1612750556333,
+    "duration" : 5004
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612750537923,
+      "stop" : 1612750550206,
+      "duration" : 12283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "新增企业",
+      "time" : {
+        "start" : 1612750551329,
+        "stop" : 1612750553681,
+        "duration" : 2352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1eaf4a764a63e9dc",
+        "name" : "企业新增成功",
+        "source" : "1eaf4a764a63e9dc.png",
+        "type" : "image/png",
+        "size" : 105978
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "修改企业全称",
+      "time" : {
+        "start" : 1612750553681,
+        "stop" : 1612750555113,
+        "duration" : 1432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1394116bc18d15c6",
+        "name" : "企业名称修改成功",
+        "source" : "1394116bc18d15c6.png",
+        "type" : "image/png",
+        "size" : 104115
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "退出登录,企业管理员登录",
+      "time" : {
+        "start" : 1612750555113,
+        "stop" : 1612750556333,
+        "duration" : 1220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612750612182,
+      "stop" : 1612750612182,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "22448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5be0629512259ee.json",
+  "parameterValues" : [ ]
+}

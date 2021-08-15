@@ -1,0 +1,89 @@
+{
+  "uid" : "69e67b655e0899c",
+  "name" : "test_init_date",
+  "fullName" : "testcase.test_test.TestMark#test_init_date",
+  "historyId" : "8cafe4e2d63fed46d62da560e8f18bec",
+  "time" : {
+    "start" : 1612749807190,
+    "stop" : 1612749807206,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'yaml' has no attribute 'RoundTripDumper'",
+  "statusTrace" : "self = <test_test.TestMark object at 0x000001B777225C18>, start_class = <mark_po.page.ui.UI object at 0x000001B7772249B0>\n\n    def test_init_date(self, start_class):\n        com_login = start_class.goto_index().goto_login()\n>       com_login.init_yaml_date('testcase/data.yaml')\n\ntestcase\\test_test.py:396: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\login.py:35: in init_yaml_date\n    self.update_init_date(yaml_file_path)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <mark_po.page.login.Login object at 0x000001B7772067B8>, yaml_path = 'testcase/data.yaml'\n\n    def update_init_date(self, yaml_path):\n        t = time.time()\n        time_update = int(round(t * 1000))\n        with open(yaml_path, encoding=\"utf-8\") as f:\n            result = yaml.safe_load(f)\n            time_old = result['init_time']['test_time']\n            result = str(result)\n            data = result.replace(str(time_old), str(time_update))\n            update_val = eval(data)\n        with open(yaml_path, \"w\", encoding=\"utf-8\") as f:\n>           yaml.dump(update_val, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)\nE           AttributeError: module 'yaml' has no attribute 'RoundTripDumper'\n\nconfig\\base_page.py:53: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612749793177,
+      "stop" : 1612749807190,
+      "duration" : 14013
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612749807317,
+      "stop" : 1612749807317,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "7844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69e67b655e0899c.json",
+  "parameterValues" : [ ]
+}

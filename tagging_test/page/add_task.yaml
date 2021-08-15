@@ -1,0 +1,84 @@
+input_task_name:
+  - by: xpath
+    locator: '//*[@class="input ant-input"]'
+    action: send
+    value: ${task_name}
+
+select_pri:
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[2]//*[@class="ant-select-selection__placeholder"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//*[@class="ant-select-dropdown-content"]/ul/li[1]'
+    action: click
+
+select_dateset_pic:
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[3]//*[@class="ant-select-selection__placeholder"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//*[@class="ant-select-dropdown-content"]/ul/li[1]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[4]//*[@class="ant-select-selection__placeholder"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//ul/li[2]'
+    action: click
+#  - by: xpath
+#    locator: '//*[@title="标注人员"]'
+#    action: click
+
+select_dateset_video:
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[3]//*[@class="ant-select-selection__placeholder"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//*[@class="ant-select-dropdown-content"]/ul/li[2]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[4]//*[@class="ant-select-selection__placeholder"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//ul/li[1]'
+    action: click
+#  - by: xpath
+#    locator: '//*[@title="标注人员"]'
+#    action: click
+
+select_marker:
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[6]//*[@class="ant-select-selection__placeholder"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//*[@class="ant-select-dropdown-content"]/ul/li[1]'
+    action: click
+  - by: xpath
+    locator: '//*[@title="标注人员"]'
+    action: click
+
+select_mark_style:
+  - by: xpath
+    locator: '//*[@id="createTask_template"]'
+    action: click
+
+click_add_temple:
+  - by: xpath
+    locator: '//*[@class="create-tem"]'
+    action: click
+
+input_task_explain:
+  - by: xpath
+    locator: '//*[@class="ant-input"]'
+    action: send
+    value: ${task_explain}
+
+click_add_task:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary"]'
+    action: click
+
+return_task_detail:
+  - by: xpath
+    locator: '//*[@data-icon="arrow-left"]'
+    action: click

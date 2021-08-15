@@ -1,0 +1,78 @@
+into_user_manage:
+  - by: xpath
+    locator: '//*[@role="menu"]/li[4]'
+    action: click
+
+add_user:
+  - by: xpath
+    locator: '//*[@class="btn-create ant-btn ant-btn-primary"]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[1]//input'
+    action: send
+    value: ${username}
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[2]//input'
+    action: send
+    value: ${pwd}
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[3]//input'
+    action: send
+    value: ${confirm_pwd}
+
+set_whether_manager:
+  - by: xpath
+    locator: '//*[@role="switch"]'
+    action: click
+
+assert_whether_manage:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]//*[text()="${assert_v}"]'
+    action: len > 0
+
+click_cancel:
+  - by: xpath
+    locator: '//*[@class="ant-btn"]'
+    action: click
+
+click_submit:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary"]'
+    action: click
+
+click_update_button:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary ant-btn-sm"]'
+    action: click
+
+update_whether_manager:
+  - by: xpath
+    locator: '//*[@role="switch"]'
+    action: click
+
+click_cancel_upload:
+  - by: xpath
+    locator: '//*[@class="ant-btn"]'
+    action: click
+
+click_submit_upload:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary"]'
+    action: click
+
+click_remove:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]//button[2]'
+    action: click
+
+click_cancel_remove_user:
+  - by: xpath
+    locator: '//*[@class="ant-popover-buttons"]/button[1]'
+    action: click
+
+click_submit_remove_user:
+  - by: xpath
+    locator: '//*[@class="ant-popover-buttons"]/button[2]'
+    action: click
+
+

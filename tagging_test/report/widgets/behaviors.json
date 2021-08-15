@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "4cf10496a921ba1a74e0d6861b4acd54",
+    "name" : "标注系统冒烟测试(只有图片集标注)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "983376f036ce5f3e75681bf599ccca87",
+    "name" : "创建视频任务，测试视频标注",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

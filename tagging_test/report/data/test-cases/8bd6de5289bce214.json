@@ -1,0 +1,121 @@
+{
+  "uid" : "8bd6de5289bce214",
+  "name" : "画一个预定义多边形",
+  "fullName" : "testcase.test_test.TestMark#test_mark_polygon_predefined",
+  "historyId" : "5458acc526ca5f9411746093a2af8df0",
+  "time" : {
+    "start" : 1612341804432,
+    "stop" : 1612341807034,
+    "duration" : 2602
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612341764138,
+      "stop" : 1612341777641,
+      "duration" : 13503
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "画一个预定义多边形",
+      "time" : {
+        "start" : 1612341804458,
+        "stop" : 1612341807034,
+        "duration" : 2576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bba1606c17affc53",
+        "name" : "预定义多边形",
+        "source" : "bba1606c17affc53.png",
+        "type" : "image/png",
+        "size" : 1087771
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612341846245,
+      "stop" : 1612341846245,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "14040-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "position",
+    "value" : "{'position1': [50, -430], 'position2': [100, -50], 'position3': [100, 50], 'position4': [-180, 200], 'position5': [-20, -200]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bd6de5289bce214.json",
+  "parameterValues" : [ "{'position1': [50, -430], 'position2': [100, -50], 'position3': [100, 50], 'position4': [-180, 200], 'position5': [-20, -200]}" ]
+}

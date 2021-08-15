@@ -1,0 +1,189 @@
+{
+  "uid" : "d9f0303b16f5683",
+  "name" : "退出标注员账号登录，项目管理员登录",
+  "fullName" : "testcase.test_test.TestMark#test_video_begin",
+  "historyId" : "e272a8273d267269a7bbc8fcf123b475",
+  "time" : {
+    "start" : 1612750777828,
+    "stop" : 1612750778856,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612750715824,
+      "stop" : 1612750728234,
+      "duration" : 12410
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "退出登录",
+      "time" : {
+        "start" : 1612750777840,
+        "stop" : 1612750778200,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "项目管理员登录",
+      "time" : {
+        "start" : 1612750778200,
+        "stop" : 1612750778856,
+        "duration" : 656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612750790733,
+      "stop" : 1612750790733,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "9104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f500fd84d65edc49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612750599214,
+        "stop" : 1612750600697,
+        "duration" : 1483
+      }
+    }, {
+      "uid" : "46546f9e658a2902",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612750328200,
+        "stop" : 1612750328200,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15462060af33dd3c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612750276937,
+        "stop" : 1612750276937,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df3e11d944a3956d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612750023610,
+        "stop" : 1612750023610,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "212a66388fc3849",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1612749793175,
+        "stop" : 1612749793175,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "300dfde4bd30974a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612342109621,
+        "stop" : 1612342110600,
+        "duration" : 979
+      }
+    }, {
+      "uid" : "3bcf8c6fdee21ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612341834120,
+        "stop" : 1612341835145,
+        "duration" : 1025
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9f0303b16f5683.json",
+  "parameterValues" : [ ]
+}

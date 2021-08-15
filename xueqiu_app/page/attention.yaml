@@ -1,0 +1,4 @@
+click_black:
+  - by: id
+    locator: 'com.xueqiu.android:id/iv_create'
+    action: click

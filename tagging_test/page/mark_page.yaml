@@ -1,0 +1,259 @@
+set_mark_rectangle:
+  - by: xpath
+    locator: "//*[@class='ant-btn-group']//button[1]"
+    action: click
+
+set_mark_polygon:
+  - by: xpath
+    locator: "//*[@class='ant-btn-group']//button[2]"
+    action: click
+
+set_mark_parallelogram:
+  - by: xpath
+    locator: "//*[@class='ant-btn-group']//button[3]"
+    action: click
+
+set_mark_ordered_parallelogram:
+  - by: xpath
+    locator: "//*[@class='ant-btn-group']//button[4]"
+    action: click
+
+mark_rectangle:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']/button[1]"
+    action: chains_rectangle
+    start_position: ${start_position}
+    end_position: ${end_position}
+
+mark_polygon:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']/button[1]"
+    action: chains_polygon
+    position1: ${position1}
+    position2: ${position2}
+    position3: ${position3}
+    position4: ${position4}
+    position5: ${position5}
+
+mark_parallelogram:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']/button[1]"
+    action: chains_parallelogram
+    position1: ${position1}
+    position2: ${position2}
+    position3: ${position3}
+
+mark_ordered_parallelogram:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']/button[1]"
+    action: chains_parallelogram
+    position1: ${position1}
+    position2: ${position2}
+    position3: ${position3}
+
+select_predefined:
+  - by: xpath
+    locator: "//*[@class='ant-tabs-nav-scroll']//*[@role='tab'][1]"
+    action: click
+
+select_customize:
+  - by: xpath
+    locator: "//*[@class='ant-tabs-nav-scroll']//*[@role='tab'][2]"
+    action: click
+
+add_customize_val:
+  - by: xpath
+    locator: "//*[@class='ant-tabs-tabpane ant-tabs-tabpane-active']//*[@class='ant-input']"
+    action: send
+    value: ${add_customize_val}
+
+select_ignore:
+  - by: xpath
+    locator: "//*[@class='ant-checkbox-group']//label[1]//*[@class='ant-checkbox-input']"
+    action: click
+
+select_crowd:
+  - by: xpath
+    locator: "//*[@class='ant-checkbox-group']//label[2]//*[@class='ant-checkbox-input']"
+    action: click
+
+click_cancel:
+  - by: xpath
+    locator: "//*[@class='edit-btn ant-btn ant-btn-sm']"
+    action: click
+
+click_submit:
+  - by: xpath
+    locator: "//*[@class='button-list']//*[@class='edit-btn ant-btn ant-btn-primary ant-btn-sm']"
+    action: click
+
+double_click:
+  - by: xpath
+    locator: ${double_click}
+    action: double_click
+
+update_object_id:
+  - by: xpath
+    locator: "//*[@class='label-row']//*[@class='ant-input']"
+    action: send
+    value: ${update_object_id_val}
+
+click_all_cancel:
+  - by: xpath
+    locator: "//*[@class='footer-btn ant-btn-group']//*[@class='ant-btn']"
+    action: click
+
+click_all_submit:
+  - by: xpath
+    locator: "//*[@class='footer-btn ant-btn-group']//*[@class='ant-btn ant-btn-primary']"
+    action: click
+
+set_show_predefined_mark:
+  - by: xpath
+    locator: "//*[@class='switch-box']/div[2]//*[@class='ant-switch-inner']"
+    action: click
+
+set_show_customize_mark:
+  - by: xpath
+    locator: "//*[@class='switch-box']/div[1]//*[@class='ant-switch-inner']"
+    action: click
+
+select_del_mark:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[1]"
+    action: select_del_mark
+    start_position: ${start_position}
+
+click_add_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[1]"
+    action: click
+
+click_del_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[2]"
+    action: click
+
+click_previous_img_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[3]"
+    action: click
+
+click_next_img_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[4]"
+    action: click
+
+click_hide_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[5]"
+    action: click
+
+click_reset_img_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[6]"
+    action: click
+
+click_not_mark_btn:
+  - by: xpath
+    locator: "//*[@class='quick-btn-list']//button[7]"
+    action: click
+
+moved_right:
+  - by: xpath
+    locator: "//*[@class='footer']/div[2]"
+    action: moved_right
+    position: [166,-500]
+
+click_enter_not_mark_pic:
+  - by: xpath
+    locator: "//*[@class='jump-title flex align-center']"
+    action: click
+
+click_previous_page:
+  - by: xpath
+    locator: "//*[@title='Previous Page']"
+    action: click
+
+click_next_page:
+  - by: xpath
+    locator: "//*[@title='Next Page']"
+    action: click
+
+click_object_id:
+  - by: xpath
+    locator: "//*[@class='ant-table-tbody']/tr[1]/td[1]"
+    action: click
+
+click_attribute:
+  - by: xpath
+    locator: "//*[@class='ant-table-tbody']/tr[1]/td[2]"
+    action: click
+
+click_play:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[1]'
+    action: click
+
+click_begin_or_end:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[2]'
+    action: click
+
+click_previous_video:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[3]'
+    action: click
+
+click_next_video:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[4]'
+    action: click
+
+click_return:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[5]'
+    action: click
+
+click_forward:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[6]'
+    action: click
+
+click_not_mark_btn_video:
+  - by: xpath
+    locator: '//*[@class="quick-btn-list"]/button[7]'
+    action: click
+
+update_video_label:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[1]//*[@class="ant-select-selection__rendered"]'
+    action: click
+  - by: xpath
+    locator: '//body/div[last()]//ul/li[3]'
+    action: click
+
+click_del_label:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[1]//*[@class="anticon anticon-delete"]'
+    action: click
+
+click_del_label_submit:
+  - by: xpath
+    locator: '//body//*[@class="ant-popover-inner"]//button[2]'
+    action: click
+
+click_add_step_len:
+  - by: xpath
+    locator: '//*[@class="ant-input-number-handler ant-input-number-handler-up "]'
+    action: click
+
+click_play_condition:
+  - by: xpath
+    locator: '//*[text()="${condition_val}"]'
+    action: len > 0
+
+click_update_video_label:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]//*[text()="${condition_val}"]'
+    action: len > 0

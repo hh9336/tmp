@@ -1,0 +1,57 @@
+into_dataset_manage:
+  - by: xpath
+    locator: '//*[@role="menu"]/li[3]'
+    action: click
+
+click_add_ds:
+  - by: xpath
+    locator: "//*[@class='btn-create ant-btn ant-btn-primary']"
+    action: click
+
+click_update_ds:
+  - by: xpath
+    locator: "//*[@data-row-key='1']//button"
+    action: click
+
+double_click:
+  - by: xpath
+    locator: "//*[@class='ant-input']"
+    action: double_click
+
+click:
+  - by: xpath
+    locator: "//*[@class='ant-input']"
+    action: click
+
+control_a:
+  - by: xpath
+    locator: "//*[@class='ant-input']"
+    action: control_a
+
+update_ds_explain:
+  - by: xpath
+    locator: "//*[@class='ant-input']"
+    action: send
+    value: ${ds_explain}
+
+click_cancel:
+  - by: xpath
+    locator: "//*[@class='ant-btn']"
+    action: click
+
+click_submit:
+  - by: xpath
+    locator: "//*[@class='ant-btn ant-btn-primary']"
+    action: click
+
+click_previous_page:
+  - by: xpath
+    locator: "//*[@class='ant-pagination-item-link']//*[@data-icon='left']"
+    action: click
+
+click_next_page:
+  - by: xpath
+    locator: "//*[@class='ant-pagination-item-link']//*[@data-icon='right']"
+    action: click
+
+

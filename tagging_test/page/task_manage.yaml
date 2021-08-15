@@ -1,0 +1,29 @@
+task_export:
+  - by: xpath
+    locator: "//*[@class='ant-table-tbody']//tr[1]//*[@class='ant-btn ant-btn-primary ant-btn-sm']"
+    action: click
+
+task_del:
+  - by: xpath
+    locator: "//*[@class='ant-table-tbody']//tr[1]//*[@class='ant-btn ant-btn-danger ant-btn-sm']"
+    action: click
+
+task_del_cancel:
+  - by: xpath
+    locator: "//*[@class='ant-btn']"
+    action: click
+
+task_del_submit:
+  - by: xpath
+    locator: "//*[@class='ant-btn ant-btn-primary']"
+    action: click
+
+click_task_id:
+  - by: xpath
+    locator: "//*[@class='ant-table-tbody']//tr[1]//*[@class='ant-table-row-expand-icon ant-table-row-collapsed']"
+    action: click
+
+click_query:
+  - by: xpath
+    locator: "//*[@data-row-key='1-1']/td[last()]/button[2]"
+    action: click

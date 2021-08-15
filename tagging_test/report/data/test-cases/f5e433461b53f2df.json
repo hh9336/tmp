@@ -1,0 +1,95 @@
+{
+  "uid" : "f5e433461b53f2df",
+  "name" : "画一个实时的多边形",
+  "fullName" : "testcase.test_test.TestMark#test_mark_polygon_customize",
+  "historyId" : "f31af28d324751f196cb43a5bff27cce",
+  "time" : {
+    "start" : 1612750276927,
+    "stop" : 1612750276927,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\PycharmProjects\\\\Selenium\\\\mark_po\\\\testcase\\\\test_test.py', 264, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_class",
+    "time" : {
+      "start" : 1612750276945,
+      "stop" : 1612750290547,
+      "duration" : 13602
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_class::0",
+    "time" : {
+      "start" : 1612750290560,
+      "stop" : 1612750290560,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标注系统冒烟测试(只有图片集标注)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMark"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-HTKQ7FP"
+  }, {
+    "name" : "thread",
+    "value" : "30716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "position",
+    "value" : "{'position1': [110, -230], 'position2': [100, -50], 'position3': [100, 50], 'position4': [-180, 200], 'position5': [-20, -200]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "f5e433461b53f2df.json",
+  "parameterValues" : [ "{'position1': [110, -230], 'position2': [100, -50], 'position3': [100, 50], 'position4': [-180, 200], 'position5': [-20, -200]}" ]
+}

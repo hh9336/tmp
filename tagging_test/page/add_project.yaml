@@ -1,0 +1,21 @@
+input_project_name:
+  - by: xpath
+    locator: '//*[@class="ant-modal-body"]/div[1]//*[@class="ant-input"]'
+    action: send
+    value: ${project_name}
+
+input_detail:
+  - by: xpath
+    locator: '//*[@class="ant-modal-body"]/div[2]//*[@class="ant-input"]'
+    action: send
+    value: ${project_detail}
+
+click_cancel:
+  - by: xpath
+    locator: '//*[@class="ant-modal-footer"]/div/button[1]'
+    action: click
+
+click_submit:
+  - by: xpath
+    locator: '//*[@class="ant-modal-footer"]/div/button[2]'
+    action: click

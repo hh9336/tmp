@@ -1,0 +1,15 @@
+ [
+    { "name": "拥抱", "value": "Embrace" },
+    { "name": "握手", "value": "ShakeHands" },
+    { "name": "会晤", "value": "Meeting" },
+    { "name": "发布会", "value": "ReleaseConference" },
+    { "name": "会议", "value": "Conference" },
+    { "name": "合影", "value": "Photograph" },
+    { "name": "下⻜机", "value": "TakeOffPlane" },
+    { "name": "阅兵", "value": "MilitaryParade" },
+    { "name": "军演", "value": "MilitaryExercise" },
+    { "name": "火箭发射", "value": "RocketLaunching" },
+    { "name": "会议讲话", "value": "ConferenceSpeech" },
+    { "name": "采访", "value": "Interview" },
+    { "name": "忽略", "value": "Ignore"}
+  ]

@@ -1,0 +1,9 @@
+goto_market:
+  - by: xpath
+    locator: '//*[@text="自选"]'
+    action: click
+
+goto_attention:
+  - by: xpath
+    locator: '//*[@text="关注"]'
+    action: click

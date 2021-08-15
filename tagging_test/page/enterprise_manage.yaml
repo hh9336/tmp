@@ -1,0 +1,87 @@
+click_add_enterprise:
+  - by: xpath
+    locator: '//*[@class="btn-create ant-btn ant-btn-primary"]'
+    action: click
+
+add_enterprise:
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[1]//*[@class="ant-form-item-children"]/input'
+    action: send
+    value: ${enterprise_name}
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[2]//*[@class="ant-form-item-children"]/input'
+    action: send
+    value: ${enterprise_account}
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[3]//*[@class="ant-form-item-children"]//input'
+    action: send
+    value: ${enterprise_pwd}
+  - by: xpath
+    locator: '//*[@class="ant-form ant-form-horizontal"]/div[4]//*[@class="ant-form-item-children"]//input'
+    action: send
+    value: ${confirm_pwd}
+
+assert_add_enterprise:
+  - by: xpath
+    locator: '//*[text()="${assert_v}"]'
+    action: len > 0
+
+update_enterprise_name:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]//button[1]'
+    action: click
+  - by: xpath
+    locator: '//*[@id="company_company_name"]'
+    action: click
+  - by: xpath
+    locator: '//*[@id="company_company_name"]'
+    action: control_a
+  - by: xpath
+    locator: '//*[@id="company_company_name"]'
+    action: send
+    value: ${re_enterprise_name}
+
+click_cancel:
+  - by: xpath
+    locator: '//*[@class="ant-modal-footer"]//button[1]'
+    action: click
+
+click_submit:
+  - by: xpath
+    locator: '//*[@class="ant-modal-footer"]//button[2]'
+    action: click
+
+
+click_cancel_upload:
+  - by: xpath
+    locator: '//*[@class="ant-btn"]'
+    action: click
+
+click_submit_upload:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary"]'
+    action: click
+
+click_stop_or_start:
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-sm"]'
+    action: click
+
+click_cancel_stop_or_start:
+  - by: xpath
+    locator: '//*[@class="ant-popover-buttons"]/button[1]'
+    action: click
+
+click_submit_stop_or_stat:
+  - by: xpath
+    locator: '//*[@class="ant-popover-buttons"]/button[2]'
+    action: click
+
+quit_login:
+  - by: xpath
+    locator: '//*[@class="ant-page-header-heading-extra"]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="ant-dropdown-menu-item"]'
+    action: click
+

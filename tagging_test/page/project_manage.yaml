@@ -1,0 +1,30 @@
+into_project_manage:
+  - by: xpath
+    locator: '//*[@role="menu"]/li[4]'
+    action: click
+
+click_add_project:
+  - by: xpath
+    locator: '//*[@class="btn-create ant-btn ant-btn-primary"]'
+    action: click
+
+click_detail:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[7]/button[1]'
+    action: click
+
+update_project_name:
+  - by: xpath
+    locator: '//*[@class="ant-table-tbody"]/tr[1]/td[7]/button[2]'
+    action: click
+  - by: xpath
+    locator: '//*[@class="ant-modal-body"]/div[1]//input'
+    action: control_a
+  - by: xpath
+    locator: '//*[@class="ant-modal-body"]/div[1]//input'
+    action: send
+    value: ${re_project_name}
+  - by: xpath
+    locator: '//*[@class="ant-btn ant-btn-primary"]'
+    action: click
+
